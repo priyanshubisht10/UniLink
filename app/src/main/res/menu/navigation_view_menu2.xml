@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_message_student"
+        android:icon="@drawable/chatroom"
+        tools:ignore="MenuTitle" />
+
+    <item android:id="@+id/nav_home_student"
+        android:icon="@drawable/home3"
+        tools:ignore="MenuTitle" />
+
+
+    <item android:id="@+id/nav_profile_student"
+        android:icon="@drawable/profile2"
+        tools:ignore="MenuTitle" />
+
+</menu>
