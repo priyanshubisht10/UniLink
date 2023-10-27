@@ -22,7 +22,9 @@
 
     <View
         android:id="@+id/view"
-        android:layout_width="350dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
         android:layout_height="2dp"
         android:background="@drawable/line"
         app:layout_constraintBottom_toBottomOf="parent"
