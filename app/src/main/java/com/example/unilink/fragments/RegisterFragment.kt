@@ -49,8 +49,10 @@ class RegisterFragment : Fragment() {
                 // Create a user data document in Firestore
                 val userData = hashMapOf(
                     "username" to username,
-                    "email" to email
+                    "email" to email,
+                    "following" to null
                 )
+
 
                 userId.let {
                     FirebaseFirestore.getInstance().collection("users")
